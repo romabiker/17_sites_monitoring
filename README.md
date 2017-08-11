@@ -10,9 +10,7 @@ Example of script launch on Linux, Python 3.5:
 
 ```
 $ pip install -r requirements.txt # alternatively try pip3
-$ python3 check_sites_health.py urls.txt
-
-Enter number of days: 30
+$ $ python3 check_sites_health.py -f urls.txt -d 30
 
 Sites health report
 
